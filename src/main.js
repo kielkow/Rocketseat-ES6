@@ -311,6 +311,7 @@ class App {
         }
         catch(err){
             alert("Repositório inexistente!")
+            this.inputEl.value = ''
         }
 
         this.setLoading(false)
